@@ -1,7 +1,9 @@
-def even_odd():
+def positive():
     numero = int(input())
 
-    if numero % 2 == 0:
-        print(f"El numero {numero} es par")
+    if numero > 0:
+        print("El numero es positivo")
+    elif numero < 0:
+        print("El numero es negativo")
     else:
-        print(f"El numero {numero} es impar")
+        print("El numero es cero")
